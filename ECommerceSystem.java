@@ -205,8 +205,8 @@ public class ECommerceSystem {
 
         // Cart
         Cart cart = new Cart();
-        cart.add(cheese, 2);      // 2x Cheese = 200
-        cart.add(biscuits, 1);    // 1x Biscuits = 150
+        cart.add(cheese, 2);      
+        cart.add(biscuits, 1);    
 
         // Perform checkout
         CheckoutService.checkout(customer, cart);
